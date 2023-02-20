@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Examen du premeir semestre</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="form.css">
+</head>
+<body>
+	<h1>FORMULAIRE D'INSCRIPTION</h1>
+		<fieldset>
+			<h2>Information personnelle</h2>
+				<form method="Post">
+					<label for="nom">Nom</label>
+					<input class="nom" type="text" name="nom" / id="nom" placeholder="saisir votre nom"><br><br>
+					<label for="prenom">Premon</label>
+					<input class="pre" type="text" name="prenom" / id="prenom" placeholder="saisir votre prenom"><br><br>
+					<label for="email">Email</label>
+					<input class="mail" type="mail" name="email" / id="email" placeholder="sair votre Email"><br><br>
+					<label>Sexe</label>
+					<label class="masc" for="masculin">Masculin</label>
+					<input type="radio" name="masculin">
+					<label for="feminin">Feminin</label>
+					<input type="radio" name="feminin">
+			</fieldset>
+			<fieldset>
+				<h2>Information supplementaire</h2>
+				<label for="pays">Pays</label>
+				<select class="pays" name="pays" id="pays">
+					<option value="X1">Senegal</option>
+					<option value="X2">France</option>
+					<option value="X3">Canada</option>
+				</select><br><br>
+				<label for="langages">Les langages préférés</label>
+				<select class="lang" name="langages" id="langages">
+					<option value="X1">Java</option>
+					<option value="X2">C</option>
+					<option value="X3">C++</option>
+					<option value="X4">PHP</option>
+					<option value="X5">HTML</option>
+				</select><br><br>
+				<label>Domaine d'activités</label>
+				<input class="info" type="radio" name="info"><label for="info">Informatique</label>
+				<input type="radio" name="ges"><label for="ges">Gestion</label>
+				<input type="radio" name="peda"><label for="peda">Pédagogie</label>
+			</fieldset>	
+			<fieldset>	
+				<h2>Message</h2>
+				<label for="mess"></label>
+				<textarea name="mess" id="mess"></textarea><br><br>
+			</fieldset><br>
+				<input type="submit" value="Envoyer">
+				<input type="reset" value="Annuler">
+	</form>
+
+</body>
+</html>

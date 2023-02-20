@@ -1,0 +1,29 @@
+body{
+	border: 1px solid black;
+	padding-bottom: 20px;
+	width: 800px;
+}
+h1{
+	text-align: center;
+}
+.nom{
+	margin-left: 300px;
+}
+.pre{
+	margin-left: 282px;
+}
+.mail{
+	margin-left: 295px;
+}
+.pays{
+	margin-left: 300px;
+}
+.lang{
+	margin-left: 190px;
+}
+.info{
+	margin-left: 200px;
+}
+.masc{
+	margin-left: 300px;
+}
